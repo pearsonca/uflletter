@@ -1,0 +1,68 @@
+%                               -*-latex-*-
+% This is a template to be used for a letter written in \latex\ using
+% the UFL Math Department letterhead.
+%
+\documentclass[]{ufepiletter}
+\date{\today }                %%%  Replace with current date, if desired.
+
+%\documentclass[color]{ufepiletter}   % Use this line on a color printer.
+%----------------------------------------------------------------
+%  Choose the font for the body by commenting out one or both of the
+%  following lines.  The UFL guidelines recommend using one of these
+%  two fonts.  These fonts do not go well with the TeX math symbol
+%  fonts, so if your letter involves much mathematics, you may
+%  want to comment out both and use the normal TeX cm fonts,
+%
+\usepackage{times}
+%\usepackage{palantino}
+%----------------------------------------------------------------
+% Fill in this section.
+%  you may want to put this information in a file ``letterinfo.def''
+%  in you tex directory, and replace it here with
+%  ``\input{letterinfo.def}''.
+%
+        %%% Fill in the name of the sender.
+\name{Carl A. B. Pearson}
+        %%% Fill in sender's phone number, or comment out this line to
+        %%% to omit the phone number
+%\telephone{             }
+        %%% Sender's email address --- leave empty to omit it.
+\UFMemail{cap10@ufl.edu}
+\UFMurl{                }
+\address{               }
+%----------------
+%  The next three items are available if desired, but it is
+%  recommended that they be left as they are here.
+%
+        %%% Name to use in closing.
+        %%% If this is left commented out, \name will be used.
+%\signature{             }
+        %%% Sender's title --- leave empty to omit (recommmended).
+%\title{}
+        %%% Sender's office --- leave comment out to omit (recommended).
+%\location{}
+%----------------------------------------------------------------
+\begin{document}
+\begin{letter}
+{                                         %%% Fill in the Recipient's name and address here.
+}
+\opening{Dear thing,}
+
+TEXT
+%%% insert opening; e.g. ``\opening{Dear Mr. Pettifog,}''
+%----------------------------------------------------------------
+%  Insert the body of the letter here.
+%
+
+\closing{Sincerely yours, }
+
+%----------------------------------------------------------------
+%  The following commands may be used after the closing.
+%
+%  \cc{Jimmy Carter\\ Richard M. Nixon}
+%  \encl{check for \$1,000,025 \\ invoice}
+%  \ps{PS.  Here is some more deathless prose\dots}
+%
+\end{letter}
+
+\end{document}
